@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(fonte/Inter-Regular.ttf);
+}
+body{
+    font-family: Inter-Regular;
+}
+/*Nome Cadastro*/
+h1, h2{
+    text-align: center;
+
+}
+input{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid rgba(163, 155, 155, 0.212);
+    background-color: #e6e0e0;
+    border-radius: 8px;
+}
+label{
+    font-weight: bold;
+}
+/*Divisão cadastro 1*/
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(233, 225, 225);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0ecec;
+}
+
+/*Pesos*/
+.pesos__container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(233, 225, 225);
+    border-radius: 10px;
+    background-color: #f0ecec;;
+    margin: 10px;
+    padding: 20px;
+    
+
+}
+
+/*Filiação*/
+.filiação__container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(233, 225, 225);
+    border-radius: 10px;
+    background-color: #f0ecec;;
+    margin: 10px;
+    padding: 20px;
+
+
+}
+.filiação_pai_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid rgb(233, 225, 225);
+    border-radius: 10px;
+    background-color: #f0ecec;;
+    margin: 10px;
+    padding: 20px;
+
+}
+/*Botões*/
+.botões{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+}
+.botões button{
+    margin: 10px;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-family: Inter-Regular;
+    border: 1px solid rgb(233, 225, 225);
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.salvar{
+    background-color: #E8A524;
+    margin: 5px 20px;
+}
+.voltar{
+    background-color: #4FCF3B;
+    margin: 5px 20px;
+}
